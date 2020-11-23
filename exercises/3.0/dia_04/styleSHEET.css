@@ -1,8 +1,10 @@
 header {
     background:red;
-    font-size: 30px;
-    height: 50px;
-    
+    font-size: 20px;
+    height: 20px;
+    vertical-align: center;
+    display: table;
+    width: 100%;
      
 }
 
@@ -11,6 +13,6 @@ header {
     margin: 50px;
     float: right;
     position: relative;
-    bottom: 97px;
+    bottom: 105px;
 }
 
