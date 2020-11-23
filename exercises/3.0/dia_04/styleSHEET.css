@@ -21,9 +21,29 @@ header {
     float: right;
     position: relative;
     left: 5px;
-    bottom: 490px;
+    bottom: 850px;
     border: groove;
     background-color: red;
     width: 300px;
 }
+#reference {
+    float: right;
+    position: relative;
+    left: 310px;
+    bottom: 290px;
+    border: groove;
+    background-color: red;
+    width: 300px;
+}
+article{
+    width: 800px;
+}
 
+#video {
+    float: right;
+    position: relative;
+    bottom: 400px;
+    background: red;
+    border: groove;
+    width: 300px;
+}
