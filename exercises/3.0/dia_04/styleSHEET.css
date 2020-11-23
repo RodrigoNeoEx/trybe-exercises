@@ -17,13 +17,13 @@ header {
     bottom: 105px;
 }
 
-aside {
+#aditionalINFO {
     float: right;
     position: relative;
-    left: 480px;
-    bottom: 100px;
+    left: 5px;
+    bottom: 490px;
     border: groove;
     background-color: red;
-    width: 400px;
+    width: 300px;
 }
 
