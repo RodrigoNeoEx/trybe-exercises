@@ -1,12 +1,23 @@
 header {
-    background:rgb(255, 0, 0);
-    
+    background: transparent;    
     height: 20px;
     vertical-align: center;
     display: table;
-    width: 100%;
+    width: 98%;
     border:groove;
-     
+    margin-left: 10px;     
+}
+h1 {
+    margin-left: 150px;
+    font-family:'Sansita Swashed', cursive;
+    font-size: 35px;
+}
+h2{
+    font-family:'Sansita Swashed', cursive;
+    margin-left: 200px;
+}
+h3 {
+    text-align: center;
 }
 
 #headLinks li {
@@ -23,7 +34,7 @@ header {
     left: 5px;
     bottom: 850px;
     border: groove;
-    background-color: red;
+    background-color: transparent;
     width: 300px;
 }
 #reference {
@@ -32,9 +43,9 @@ header {
     left: 310px;
     bottom: 290px;
     border: groove;
-    background-color: red;
+    background-color: transparent;
     width: 300px;
-    height: 200px;
+    height: 250px;
 }
 article{
     width: 800px;
@@ -44,7 +55,7 @@ article{
     float: right;
     position: relative;
     bottom: 400px;
-    background: red;
+    background: transparent;
     border: groove;
     width: 300px;
 }
@@ -71,9 +82,16 @@ th, td {
 }
 section {
     margin-top: 30px;
+    background: rgb(78, 78, 106);
+    color: white;
+    border-radius: 10px;
+    
 }
 body {
     background-image: url(Ocean\ Background.jpg);
+}
+footer {
+    color: white;
 }
 
 
