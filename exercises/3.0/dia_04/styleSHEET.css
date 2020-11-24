@@ -19,34 +19,52 @@ h2{
 h3 {
     text-align: center;
 }
+a {
+    color: black;
+}
 
 #headLinks li {
     display: inline;
     margin: 50px;
     float: right;
     position: relative;
-    bottom: 105px;
+    bottom: 105px;    
 }
 
 #aditionalINFO {
     float: right;
     position: relative;
-    left: 5px;
-    bottom: 850px;
+    bottom: 1275px;
     border: groove;
     background-color: transparent;
     width: 300px;
+    border-radius: 10px;
+    right: 10px;   
+}
+#classes {
+    margin-bottom: 30px;    
 }
 #reference {
     float: right;
     position: relative;
-    left: 310px;
-    bottom: 290px;
+    left: 300px;
+    bottom: 700px;
     border: groove;
-    background-color: transparent;
     width: 300px;
-    height: 250px;
+    height: 270px;
+    border-radius: 10px;
+    
+        
 }
+#bibli {
+    display: inline-block;
+    background-color: transparent;
+    bottom: auto;
+    width: 300px;
+    text-align: center;
+    color: black;     
+}
+
 article{
     width: 800px;
 }
@@ -54,26 +72,27 @@ article{
 #video {
     float: right;
     position: relative;
-    bottom: 400px;
+    bottom: 450px;
     background: transparent;
     border: groove;
     width: 300px;
+    text-align: center;
 }
 table {
   border: 1px solid black;
-  border-collapse: collapse;
-  width: 100%;    
-  background-color: #f1f1c1;
-  display: inline;
-  margin-left: 12px;
-  
+  border-collapse:separate;      
+  display: inline-block;
+  margin-left: 7px;
+  margin-bottom: 10px;      
 }
 th, td {
   text-align: justify;
-  border: 1px solid black;
+  border: 1px solid white;
   border-collapse: separate;
   width: 135px;
-  background-color: #f1f1c1;   
+  background-color: rgb(184, 184, 192);
+  color: black;
+    
 }
 .img1 {
     border-radius: 50px;
@@ -93,5 +112,7 @@ body {
 footer {
     color: white;
 }
-
+#up {
+    text-align: right;
+}
 
