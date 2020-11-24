@@ -48,3 +48,23 @@ article{
     border: groove;
     width: 300px;
 }
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;    
+  background-color: #f1f1c1;
+  display: inline;
+  margin-left: 12px;
+  
+}
+th, td {
+  text-align: justify;
+  border: 1px solid black;
+  border-collapse: separate;
+  width: 135px;
+  background-color: #f1f1c1;
+ 
+   
+}
+
+
