@@ -54,3 +54,14 @@ if(pq = Number<0) {
     console.log("positive")
     }
 
+let r = 60;
+let s = 60;
+let t = 60;
+let rst = r + s + t;
+
+if(rst = 180){
+    console.log(true)
+}else{
+    console.log(false)
+}
+
