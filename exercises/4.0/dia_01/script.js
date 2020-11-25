@@ -43,3 +43,14 @@ if(m >  n , m > o){
 }else{
 console.log(o + ' é o resultado maior')
 }
+
+let p = 10;
+let q = 20;
+let pq = p-q;
+
+if(pq = Number<0) {
+    console.log("negative")
+    }else{
+    console.log("positive")
+    }
+
