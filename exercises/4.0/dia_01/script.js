@@ -31,3 +31,15 @@ if(k > l){
 }else{
 console.log(l)
 }
+
+let m = 10;
+let n = 20;
+let o = 30;
+
+if(m >  n , m > o){
+    console.log(m + ' é o resultado maior')
+}else if (n > m , n > o){
+    console.log(n + ' é o resultado maior')
+}else{
+console.log(o + ' é o resultado maior')
+}
