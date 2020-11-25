@@ -11,4 +11,11 @@ console.log(c - d);
 let e = 10;
 let f = 20;
 
-console.log(e * f)
+console.log(e * f);
+
+let g = 10;
+let h = 20;
+
+console.log(g / h);
+
+
