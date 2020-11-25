@@ -23,3 +23,11 @@ let j = 20;
 
 console.log(i % j);
 
+let k = 10;
+let l = 20;
+
+if(k > l){
+    console.log(k)
+}else{
+console.log(l)
+}
