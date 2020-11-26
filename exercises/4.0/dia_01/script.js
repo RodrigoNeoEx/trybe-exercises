@@ -65,3 +65,19 @@ if(rst = 180){
     console.log(false)
 }
 
+let chessPiece = 'bispo';
+
+switch (chessPiece.toLowerCase()) {
+  case 'rei':
+    console.log('Rei-> Uma casa apenas para qualquer direção.');
+    break;
+  case 'bispo':
+    console.log('Bispo-> Diagonal.');
+    break;
+  case 'rainha':
+    console.log('Rainha-> Diagonal e horizontal.');
+    break;
+    default:
+    console.log('Erro, peça inválida!');
+    break;
+};
