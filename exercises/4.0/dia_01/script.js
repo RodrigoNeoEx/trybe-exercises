@@ -81,3 +81,23 @@ switch (chessPiece.toLowerCase()) {
     console.log('Erro, peça inválida!');
     break;
 };
+
+let resultado = 197
+
+if(resultado < 0 || resultado > 100) {
+    console.log('error');
+    }else if (resultado >= 90) {
+    console.log('A');
+    }else if (resultado >= 80) {
+    console.log('B');
+    }else if (resultado >= 70) {
+    console.log('C');
+    }else if (resultado >= 60) {
+    console.log('D');
+    }else if (resultado >= 50) {
+    console.log('E');
+    }else {
+    console.log('F');
+    }
+
+
