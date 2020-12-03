@@ -46,8 +46,7 @@ let tio = {
 };
 
 for (let key in info) {
-  if (
-    info[key] === info.recorrente && info[key] === "Sim" && tio[key] === "Sim") {
+  if (info[key] === 'Sim' && tio[key] === 'Sim' && key === 'recorrente') {
     console.log("Ambos recorrentes");
   } else {
     console.log(info[key] + " e " + tio[key]);
