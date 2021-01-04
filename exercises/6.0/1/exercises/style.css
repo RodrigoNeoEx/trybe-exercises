@@ -1,0 +1,9 @@
+.nomeCompleto {
+  width: auto;
+  min-width: 300px;
+}
+
+form {
+  margin-left: 2%;
+  margin-right: 2%;
+}
