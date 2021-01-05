@@ -10,25 +10,46 @@
 <body>
   <form action="" method="GET">Curriculo
     <fieldset>
-      <legend>Dados Pessoais</legend>      
+
+      <legend>Dados Pessoais</legend>
       <input type="text" name="dados_pessoais" placeholder="Nome Completo"  id="nomeCompleto"  maxlength="40" class="nomeCompleto"  required>
-      <input type="email" name="dados_pessoais" id="email" placeholder="E-mail" maxlength="50" class="email" required>      
+      <input type="email" name="dados_pessoais" id="email" placeholder="E-mail" maxlength="50" class="email" required>
+      
       <label for="cps">CPF</label>
       <input type="text" name="dados_pessoais" id="cpf" maxlength="11"  placeholder="xxx.xxx.xxx.-xx" required>
+
       <br>
+
       <input type="text" name="dados_pessoais" id="endereço"  maxlength="200" placeholder="Endereço">
       <input type="text" name="dados_pessoais" id="cidade"  maxlength="28"  placeholder="Cidade" required>
       <select name="dados_pessoais" id="estado"></select>
+
       <label for="homeType1">
         <input type="radio" name="home" id="homeType1" value="casa" required>Casa
       </label>
+
       <label for="homeType2">
         <input type="radio" name="home" id="homeType2" value="apartamento" required>Apartamento
       </label>
-      
 
+    </fieldset>
+
+    <fieldset>
+      <legend>Informações Profissionais</legend>
+      <textarea name="" id="" cols="87" rows="5" maxlength="1000" placeholder="Comente suas experiencias anteriores"  required></textarea>
+
+      <br>
+
+      <input type="text" name="" id="" maxlength="40" placeholder="Seu cargo atual" required>    
+      Inicio de Contrato <input type="date" name="" min="1950-01-01"  max="2021-02-01" id="date" required>
+      Termino de Contrato <input type="date" name="" min="1950-01-01"  max="2021-02-01" id="date">
+
+      <br>
+
+      <textarea name="" id="" cols="87" rows="5" maxlength="500" placeholder="Breve descrição do cargo"></textarea>
       
     </fieldset>
+<button type="submit">Enviar Formulário</button>
   </form>
   
 </body>
