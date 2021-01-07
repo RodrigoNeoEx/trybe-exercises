@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Bloco 6 - Exercises - 6.1</title>
+</head>
+<body>
+  <form action="" method="GET">Curriculo
+    <fieldset class="one">
+
+      <legend>Dados Pessoais</legend>
+        <input type="text" name="Nome Completo" placeholder="Nome Completo"  id="nomeCompleto"  maxlength="40" class="nomeCompleto"  required>
+        <input type="email" name="E-Mail" id="email" placeholder="E-mail" maxlength="50" class="email" required>
+      
+      <label for="cps">CPF</label>
+        <input type="text" name="CPF" id="cpf" maxlength="11"  placeholder="xxx.xxx.xxx.-xx" required>
+
+      <br>
+
+        <input type="text" name="Endereço" id="endereço"  maxlength="200" placeholder="Endereço"  required>
+      <label for="homeType1">
+        <input type="radio" name="Tipo de Residencia" id="homeType1" value="Casa" class="homeType" checked required>Casa
+      </label>
+
+      <label for="homeType2">
+        <input type="radio" name="Tipo de Residencia" id="homeType2" value="Apartamento"  class="homeType" required>Apartamento
+      </label>
+
+      <br>
+      
+      <input type="text" name="Cidade" id="cidade"  maxlength="28"  placeholder="Cidade" required>
+      <select name="Estado" id="estado"></select>
+      
+
+  
+
+    </fieldset>
+
+    <fieldset class="two">
+      <legend>Informações Profissionais</legend>
+      <textarea name="Experiencias Anteriores" class="text" cols="87" rows="5" maxlength="1000" placeholder="Comente suas experiencias anteriores"  required></textarea>
+
+      <br>
+
+      <input type="text" name="Cargo Atual"  maxlength="40" placeholder="Seu cargo atual" required>
+      <br>
+      <label for="start">Inicio de contrato</label>
+      <input type="date" name="Data de Inicio" min="1950-01-01"  max="2021-02-01" class="date" id="start" required>
+      <label for="end">Termino de Contrato</label>
+      <input type="date" name="Data de Saída" min="1950-01-01"  max="2021-02-01" class="date" id="end">
+
+      <br>
+
+      <textarea name="Descrição do Cargo Atual" class="text"  cols="87" rows="5" maxlength="500" placeholder="Breve descrição do cargo"></textarea>
+
+    </fieldset>    
+     
+    <button type="button" id="submit">Gerar Cadastro</button>
+  </form>
+
+  <section class=""  id="scriptSection"></section>
+  <br>
+  <hr>
+  <input type="checkbox" name="Concorda com dados preenchidos" id="default">   
+  <label for="default">Dados Confirmados</label>
+  <button id="send">Enviar Curriculo</button>
+  <button id="clean">Limpar</button>
+  
+</body>
+</html>
