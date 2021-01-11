@@ -36,12 +36,24 @@ p {
   font-size: small;
 }
 
+footer {
+  font-size: x-small;
+}
+footer p {
+  font-size: x-small;
+}
+
+
+.top-aside {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 /* tablet layout*/
 @media screen and (min-width: 768px) {
-  body {
-  background-color: gray;
+  header {
+    justify-content: space-around;
   }
-  
   header p {
     font-size: large;
   }
@@ -61,19 +73,17 @@ p {
   p {
     font-size: medium;
   }
+  footer {
+    font-size: small;
+  }
+  footer p {
+    font-size: small;
+  }
 }
 
-/* 
-@media screen and (min-width: 768px) {
-  body {
-  background-color: red;
-  }  
-} */
+/* desktop layout */
 
 @media screen and (min-width: 1024px) {
-  body {
-  background-color: lightblue;
-  }
   header p {
     font-size: xx-large;
   }
@@ -92,5 +102,5 @@ p {
   
   p {
     font-size: large;
-  }
+  }  
 }
