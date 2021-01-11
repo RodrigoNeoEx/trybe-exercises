@@ -1,6 +1,6 @@
 body {
   font-size: medium;
-  margin: 3%;
+  margin: 5%;
 }
 h1 {
   font-size: larger;
@@ -8,46 +8,76 @@ h1 {
 }
 h2 {
   font-size: large;
+  display: flex;
+  justify-content: center;
+}
 
+p {
+  font-size: small;
 }
 
 img {
     max-width: 100%;
 }
 
-figure {
-    margin: 10px 0px;
+.figures-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-@media screen and (min-width: 450px) {
-  body {
-    background-color: gray; }
-  .figures-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  .figures {
-    display: flex;
-    min-width: 50vh;
-    max-width: 51vh;
-    flex-wrap: wrap;
-  }
+figure {
+    margin: 1%;
+    max-width: 50%;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-content: space-between;
+}
+
+figcaption {
+  font-size: x-small;
 }
 
 @media screen and (min-width: 650px) {
   body {
     background-color: red;
+    font-size: large;
+  }
+  h1 {
+    font-size: xx-large;
+  }
+  h2 {
+    font-size: x-large;
+  }
+  .figures {
+    display: flex;   
+    flex-wrap: wrap;
+    width: 40%;
+  }
+  figcaption {
+    font-size: medium;
+  }
+  p {
+    font-size: medium;
   }
 }
 
-@media screen and (min-width: 850px) {
-  body {
-    background-color: green;
-  }
-}
 
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1024px) {
   body {
     background-color: teal;
   }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: xx-large;
+  }
+  figcaption {
+    font-size: large;
+  }
+  p {
+    font-size: large;
+  }
+}
