@@ -21,6 +21,33 @@ figure {
 
 @media screen and (min-width: 450px) {
   body {
-    background-color: gray;
-
+    background-color: gray; }
+  .figures-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .figures {
+    display: flex;
+    min-width: 50vh;
+    max-width: 51vh;
+    flex-wrap: wrap;
+  }
 }
+
+@media screen and (min-width: 650px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: teal;
+  }
